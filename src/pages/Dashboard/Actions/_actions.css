@@ -1,0 +1,119 @@
+.action-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.btn-mint {
+    display: flex;
+    position: relative;
+    border: 5px solid #EEBD1BFF;
+    border-radius: 15px;
+    width: 50%;
+    height: 80px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lalezar';
+    font-size: 3.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.btn-prohibit {
+    cursor: initial;
+    border: 5px solid gray;
+}
+
+.btn-enable:hover {
+    background: #EEBD1BFF;
+    color: #010001;
+}
+
+.btn-enable::before,
+.btn-enable::after {
+    position: absolute;
+    margin: 0 auto;
+    display: inline-block;
+    background-size: 100% 100%;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    background-repeat: no-repeat;
+    content:"";
+    transition: 0.3s;
+}
+.btn-enable::before {
+    left: -30%;
+    background-image:url('./../../../assets/img/PiocheGauche.png');
+    transform: rotate(-180deg);
+}
+.btn-enable::after {
+    background-image:url('./../../../assets/img/PiocheDroite.png');
+    right: -30%;
+    transform: rotate(180deg);
+}
+.btn-enable:hover::before {
+    left: 0%;
+    top: 0%;
+    transform: rotate(0deg);
+}
+.btn-enable:hover::after {
+    right: 0%;
+    top: 0%;
+    transform: rotate(0deg);
+}
+
+@keyframes appearance {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@media all and (max-width: 1420px) {    
+    .btn-mint {
+        font-size: 2.8rem;
+        height: 70px;
+    }
+    .btn-mint::before,
+    .btn-mint::after {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 1200px) {    
+    .btn-mint {
+        font-size: 2.5rem;
+        height: 60px;
+    }
+    .btn-mint::before,
+    .btn-mint::after {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 900px) {    
+    .btn-mint {
+        font-size: 2rem;
+        height: 60px;
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 500px) {    
+    .btn-mint {
+        font-size: 1.5rem;
+        height: 60px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,183 @@
+.supply-container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.progress-supply {
+    display: block;
+    position: relative;
+    align-items: center;
+    background: #3B3B3A88;
+    justify-content: flex-start;
+    margin: 0 auto;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 50px;
+    width: 70%;
+}
+
+.progress-value {
+    box-shadow: 0 10px 40px -10px #FFF700CC;
+    border-radius: 100px;
+    background: #EEBD1BFF;
+    height: 50px;
+}
+
+.supply-number {
+    color: #EEBD1BFF;
+    font-family: 'Lalezar';
+    font-size: 2.2rem;
+}
+.shimmer {
+    position: relative;
+    font-family: 'Lalezar';
+    letter-spacing: 0.3rem;
+    color: #249dd8;
+    background: linear-gradient(to right, #249dd8 0, #bee9ff 10%, #249dd8 20%);
+    background-position: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shining 20s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 3.2rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.price-text {
+    position: relative;
+    font-family: 'Lalezar';
+    font-size: 2.2rem;
+    color: #EEBD1BFF;
+}
+
+.rewards-text {
+    position: relative;
+    font-family: 'Lalezar';
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+@-moz-keyframes shining {
+    0% {
+        background-position: 0px;
+    }
+    50% {
+        background-position: 1500px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
+@-webkit-keyframes shining {
+    0% {
+        background-position: 0px;
+    }
+    50% {
+        background-position: 1500px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
+@-o-keyframes shining {
+    0% {
+        background-position: 0px;
+    }
+    50% {
+        background-position: 1500px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
+@keyframes shining {
+    0% {
+        background-position: 0px;
+    }
+    50% {
+        background-position: 1500px;
+    }
+    100% {
+        background-position: 0px;
+    }
+}
+
+
+@media all and (max-width: 1420px) {
+    .supply-number {
+        font-size: 1.8rem;
+    }
+    .price-text {
+        font-size: 1.8rem;
+    }
+    .rewards-text {
+        font-size: 1.8rem;
+    }
+    .shimmer {
+        font-size: 2.8rem;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .progress-supply, .progress-value {
+        height: 40px
+    }
+    .supply-number {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    .price-text {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .rewards-text {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .shimmer {
+        font-size: 2.2rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .shimmer {
+        font-size: 2.3rem;
+        padding: 20px 0 0px 0;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .progress-supply, .progress-value {
+        height: 30px;
+        width: 90%;
+    }
+    .shimmer {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .shimmer {
+        font-size: 1.6rem;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .progress-supply, .progress-value {
+        width: 100%;
+    }
+    .shimmer {
+        font-size: 1.4rem;
+        padding: 10px 0 0px 0;
+    }
+}

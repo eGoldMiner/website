@@ -1,0 +1,26 @@
+{
+    "identifier":"EMINERS-89f633-81",
+    "collection":"EMINERS-89f633",
+    "timestamp":1652855736,
+    "attributes":"dGFnczo7bWV0YWRhdGE6YmFmeWJlaWhpZGpsb2JqcHhjeWtla2gzbG5tM3l5dGRjb2NmeWQ3cjVhYXRwbjNkNmR0bzcyNHRuNGkvMTQyLmpzb24=",
+    "nonce":129,
+    "type":"NonFungibleESDT",
+    "name":"ElrondMiners #142",
+    "creator":"erd1qqqqqqqqqqqqqpgq3cr3heyns855jjtkk72qhnxdjzglpjstktms8vf52a",
+    "royalties":10,
+    "uris":[
+        "aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWE3bHlpejVmeHNyM3c0dGdyM2U1enczMnVwamdldmtmNnd2cGxreWh6Zm5hZXRsZGx4dWUvMTQyLm1wNA==",
+        "aHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFmeWJlaWhpZGpsb2JqcHhjeWtla2gzbG5tM3l5dGRjb2NmeWQ3cjVhYXRwbjNkNmR0bzcyNHRuNGkvMTQyLmpzb24="
+    ],
+    "url":"https://testnet-media.elrond.com/nfts/asset/bafybeia7lyiz5fxsr3w4tgr3e5zw32upjgevkf6wvplkyhzfnaetldlxue/142.mp4",
+    "media":[
+        {
+            "url":"https://testnet-media.elrond.com/nfts/asset/bafybeia7lyiz5fxsr3w4tgr3e5zw32upjgevkf6wvplkyhzfnaetldlxue/142.mp4",
+            "originalUrl":"https://ipfs.io/ipfs/bafybeia7lyiz5fxsr3w4tgr3e5zw32upjgevkf6wvplkyhzfnaetldlxue/142.mp4",
+            "thumbnailUrl":"https://testnet-media.elrond.com/nfts/thumbnail/EMINERS-89f633-d1e4cb57",
+            "fileType":"video/mp4",
+            "fileSize":2125929}],
+            "isWhitelistedStorage":true,
+            "metadata":[{"id":142,
+                "hash":"2963c1b46e193480e45424d1a848592c29c0e022bb83047f595e2dbd3cf69453",
+                "description":"Elrond Miners are a team of 7,000 3D animated NFT randomly generated living on the Elrond blockchain. With this project, you will get rewards based on your miner's mining abilities.","attributes":[{"trait_type":"Helmet","value":"Candle"},{"trait_type":"Beard","value":"T1 Brown"},{"trait_type":"Eyes","value":"Pirate Patch"},{"trait_type":"Pickaxe","value":"Private"},{"trait_type":"Clothes","value":"Black jacket"},{"trait_type":"Background","value":"Snow"},{"trait_type":"Bag","value":"Lantern"},{"trait_type":"Miner","value":"Dirty Miner"}]}],"owner":"erd17zx4rzejh0sgzpw7mhwfgkyzcar329xrvd60kvtrya9sle8xjwrqewgy0l","supply":"1","ticker":"EMINERS-89f633"}

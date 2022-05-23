@@ -1,0 +1,9 @@
+export const contractAddress =
+  'erd1qqqqqqqqqqqqqpgq20natzr5s3v5x6cupzpurlj5k4uddprzktms9vhhp3';
+// erd1qqqqqqqqqqqqqpgqv5qajajq76eq3q0fgy4532jca3a5zprxktmsvl49g7 testnet
+// erd1qqqqqqqqqqqqqpgqsm6e45qvzrj2jtju3jhsvkpv7u6k04t4ktmsh4jsrd testnet
+// erd1qqqqqqqqqqqqqpgqeuus94yskgz36skdna4s632hhlfyy6rlktmsala52m testnet
+// erd1qqqqqqqqqqqqqpgq3cr3heyns855jjtkk72qhnxdjzglpjstktms8vf52a testnet
+// erd1qqqqqqqqqqqqqpgq20natzr5s3v5x6cupzpurlj5k4uddprzktms9vhhp3 mainnet
+
+export const dAppName = 'Elrond Miners';

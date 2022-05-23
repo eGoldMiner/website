@@ -1,0 +1,176 @@
+.login-container-unlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.login-text {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-family: 'Lalezar';
+    font-size: 2.5rem;
+    z-index: 1;
+    right: 0%;
+    padding: 20px 5px;
+}
+
+.btn-connection-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 100px;
+    margin: 0 auto;
+}
+
+.btn-connection,
+.web-wallet-login_wrapper,
+.extension-login_wrapper {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 160px;
+    height: 160px;
+	border: 5px solid #EEBD1BFF;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px !important;
+    margin: 0 auto;
+}
+
+.extension-login_wrapper {
+    background-image: url('./../../assets/img/Maiar_wallet.png') !important;
+}
+
+.btn-noextension {
+    text-decoration: none;
+}
+
+.web-wallet-login_wrapper {
+    background-image: url('./../../assets/img/Web_wallet.png') !important;
+}
+
+.btn-connection-ledger {
+    background-image: url('./../../assets/img/Ledger.png') !important;
+}
+
+.btn-connection-walletconnect {
+    background-image: url('./../../assets/img/Maiar_login.png') !important;
+}
+
+.logo-elrondminers {
+    display:block;
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+	border: 5px solid #EEBD1BFF;
+    border-radius: 50%;
+}
+
+.wallect-connect-login-modal {
+    background: #010001;
+}
+
+@media all and (max-width: 1520px) {
+    .btn-connection-section {
+        padding: 60px 50px;
+    }
+}
+
+@media all and (max-width: 1420px) {
+    .btn-connection-section {
+        padding: 60px 80px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {
+        width: 120px;
+        height: 120px;
+        border: 3px solid #EEBD1BFF;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .btn-connection-section {
+        padding: 30px 40px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {   
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .btn-connection-section {
+        padding: 30px 60px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .btn-connection-section {
+        padding: 10px 5px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {
+        width: 90px;
+        height: 90px;
+    }
+    .login-text {
+        font-size: 1.8rem;
+        padding: 10px 5px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .btn-connection-section {
+        padding: 10px 5px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #EEBD1BFF;
+    }
+    .login-text {
+        font-size: 1.6rem;
+        padding: 10px 5px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .btn-connection-section {
+        padding: 10px 0px;
+    }
+    .btn-connection,
+    .web-wallet-login_wrapper,
+    .extension-login_wrapper {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #EEBD1BFF;
+    }
+    .login-text {
+        font-size: 1.25rem;
+        padding: 10px 5px;
+    }
+}

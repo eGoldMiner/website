@@ -1,0 +1,472 @@
+/*---------------------
+    Main section
+---------------------*/
+.main-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width:100%;
+    padding: 0 10%;
+    padding-bottom: 50px;
+}
+.main-section div {
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    width: 50%;
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+    color: #fff;
+}
+.main-section div:nth-child(2) {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.main-section div video {
+    width:80%;
+    border-radius: 15px;
+}
+
+
+/*-------------------------
+    Title template
+-------------------------*/
+.new-section {
+    text-align: center;
+    padding: 0px 50px 50px;
+}
+.title-section {
+    display: inline-block;
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: var(--main-font), sans-serif;
+    padding: 0px 0px 30px 0px;
+}
+
+/*-------------------------
+    Mint section
+-------------------------*/
+.mint-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mint-button a{
+    border: 3px solid rgb(255, 215, 0);
+    /* border: 3px solid rgb(58, 58, 58); */
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Lalezar";
+    width: 50%;
+    height: 80px;
+    text-decoration: none;
+    /* color: gray; */
+    color: #fff;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.mint-button a:hover {
+    box-shadow: 1px 1px 25px 10px rgba(255, 215, 0, 0.4);
+}
+
+.mint-button a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 215, 0, 0.4),
+        transparent
+    );
+    transition: all 650ms;
+}
+
+.mint-button a:hover:before {
+    left: 100%;
+}
+
+
+/*-------------------------
+    Presentation section
+-------------------------*/
+.presentation-section div p {
+    color: #fff;
+    font-size: 1.563rem;
+    font-family: var(--main-font);
+}
+
+
+/*-------------------------
+    Roadmap section
+-------------------------*/
+.roadmap-container {
+    display: inline-block;
+    line-height: normal;
+    position: relative;
+    font-family: var(--main-font);
+    color: var(--white);
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 50px;
+    height: 100%;
+}
+.roadmap-background {
+    opacity: 0.2;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 100%;
+    z-index: -100;
+}
+.roadmap {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+.roadmap ul {
+    list-style-type: none;
+    border-left: 2px solid;
+    border-color: var(--white);
+    padding: 10px 5px;
+    text-align: left;
+}
+.roadmap ul li {
+    margin-left: 14px;
+    padding: 20px 20px;
+    position: relative;
+    cursor: pointer;
+    transition: .5s;
+}
+.roadmap ul li span {
+    display: inline-block;
+    font-family: var(--main-font);
+    background-color: var(--nickel);
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.roadmap ul li h3 {
+    color: var(--gold-web-golden);
+    font-size: 2.188rem;
+    padding-top: 5px;
+}
+.roadmap ul li p {
+    padding: 5px 0px 15px 0px;
+    font-size: 1.563rem;
+}
+.roadmap ul li::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: var(--nickel);
+    border-radius: 50%;
+    left: -30px;
+    top: 36px;
+    transition: .5s;
+}
+.roadmap ul li:hover {
+    background-color: var(--onyx);
+}
+.roadmap ul li:hover span{
+    background-color: var(--gold-web-golden);
+    box-shadow: 0px 0px 5px 2px;
+    color: var(--black);
+}
+.roadmap ul li:hover::before {
+    background-color: var(--gold-web-golden);
+    box-shadow: 0px 0px 10px 2px;
+    color: var(--white);
+}
+
+
+/*-------------------------
+    FAQ section
+-------------------------*/
+.faq-section {
+    max-width: 920px;
+    text-align: center;
+    margin: 0 auto;
+}
+.faq-container {
+    font-family: var(--main-font);
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    width: 100%;
+}
+.faq-question {
+    font-size: 1.875rem;
+    background-color: var(--nickel);
+    color: var(--white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.faq-content {
+    margin-bottom: 20px;
+    font-size: 1.563rem;
+}
+.faq-container details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+}
+.faq-container details[open] .faq-question {
+    background-color: var(--gold-web-golden);
+    color: var(--black);
+}
+.faq-container details > summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+}
+.faq-container details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+}
+.faq-container details > summary::-webkit-details-marker {
+    display: none;
+}
+@keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}}
+
+
+/*-------------------------
+    Team section
+-------------------------*/
+.cards-section {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+.card-team {
+    height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background: transparent;
+    overflow: hidden;
+    vertical-align: top;
+    box-shadow: 0px 0px 1.2rem #FFD700AA;
+}
+.card-team-image {
+    position: relative;
+    height: 75%;
+    width: 100%;
+    left: -5%;
+    display: block;
+}
+.card-team-image img {
+    opacity: 1.0;
+    height: 100%;
+}
+.card-team-caption {
+    height: 25%;
+    width: 100%;
+    bottom: 0;
+    background: #FFFFFF55;
+    font-family: 'Lalezar';
+    z-index: 100;
+    padding: 10px;
+    text-align: center;
+}
+.card-team-caption h3 {
+    width:100%;
+    color: #FFD700;
+    font-size: 2.2rem;
+    letter-spacing: 5px;
+    -webkit-animation: flicker 3s linear infinite;
+            animation: flicker 3s linear infinite;
+}
+.card-team-caption p {
+    position: relative;
+    width:100%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+@-webkit-keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+      opacity: 0.99;
+      text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px -1px 0 rgba(255, 255, 255, 0.4), -1px 1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.4), 0 -2px 8px, 0 0 2px, 0 0 5px #FFD700, 0 0 15px #EEBD1BFF, 0 0 2px #FFD700, 0 2px 3px #000;}
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      opacity: 0.4;
+      text-shadow: none;}
+}
+@keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: 0.99;
+        text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.4), 1px -1px 0 rgba(255, 255, 255, 0.4), -1px 1px 0 rgba(255, 255, 255, 0.4), 1px 1px 0 rgba(255, 255, 255, 0.4), 0 -2px 8px, 0 0 2px, 0 0 5px #FFD700, 0 0 15px #EEBD1BFF, 0 0 2px #FFD700, 0 2px 3px #000;}
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;}
+}
+
+@media all and (max-width: 1200px) {
+    .main-section {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0px 20px 20px;
+    }
+    .main-section div {
+        font-size: 1.875rem;
+    }
+    .title-section {
+        font-size: 3.125rem;
+    }
+    .mint-button a{
+        width: 70%;
+    }
+    .team-section {
+        padding: 0px 0px 50px;
+    }
+    .card-team {
+        margin-bottom: 40px;
+        height: 375px;
+        width: 250px;
+    }
+    .card-team-caption h3 {
+        font-size: 1.6rem;
+    }
+    .card-team-caption p {
+        font-size: 1.2rem;
+    }
+    .card-team-watermark {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .main-section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0px 0px;
+        padding: 50px 10px 50px 10px;
+    }
+    .main-section div {
+        margin: 0px 0px;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .new-section {
+        text-align: center;
+        padding: 0px 0px 50px;
+    }
+    .title-section {
+        font-size: 3.8rem;
+    }
+    .presentation-section div:nth-child(2) p {
+        font-size: 1.563rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .roadmap ul li span {
+        font-size: 2.5rem;
+    }
+    .roadmap ul li h3 {
+        font-size: 1.875rem;
+    }
+    .roadmap ul li p {
+        font-size: 1.25rem;
+    }
+    .faq-question {
+        font-size: 1.563rem;
+    }
+    .faq-content {
+        font-size: 1.25rem;
+    }
+    .cards-section {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction:reverse;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 0px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .main-section div {
+        font-size: 1.625rem;
+        padding: 0px;
+    }
+    .main-section div:nth-child(2) {
+        padding: 0px
+    }
+    .presentation-section div:nth-child(2) p {
+        font-size: 1.25rem;
+    }
+    .title-section {
+        font-size: 3rem;
+    }
+    .mint-button a{
+        width: 80%;
+        font-size: 1.5rem;
+        height: 60px;
+    }
+    .roadmap-container {
+        padding: 0 0px;
+    }
+    .roadmap ul li span {
+        font-size: 1.875rem;
+    }
+    .roadmap ul li h3 {
+        font-size: 1.563rem;
+    }
+    .roadmap ul li p {
+        font-size: 0.938rem;
+    }
+    .faq-question {
+        font-size: 1.25rem;
+    }
+    .faq-content {
+        font-size: 0.938rem;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .title-section {
+        font-size: 2.4rem;
+    }
+}

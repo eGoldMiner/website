@@ -1,0 +1,12 @@
+.video-presentation {
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    border: 5px solid #EEBD1BFF;
+    box-shadow: 0px 0px 10px #EEBD1BFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

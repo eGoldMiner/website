@@ -1,0 +1,98 @@
+.ledger-div-container {
+    position: relative !important;
+    display: block !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    top:50% !important;
+    margin: 0 auto !important;
+    transform:translateY(-50%) !important;
+    background: #010001 !important;
+}
+
+.ledger-div-container p, h4 {
+    color: #fff !important;
+    display: block !important;
+    position: relative !important;
+    padding: 5px !important;
+    font-family: 'Lalezar' !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+.ledger-div-container h4 {
+    font-size: 2rem !important;
+    background-color: none !important;
+    margin-bottom: 0rem !important;
+}
+.ledger-div-container p {
+    font-size: 1.5rem !important;
+    background-color: none !important;
+    margin-bottom: 0rem !important;
+}
+.ledger-div-container .mb-4 {
+    margin-bottom: 0rem !important;
+}
+
+.ledger-div-container .card {
+    align-items: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: block !important;
+    position: relative !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    background-color: black !important;
+}
+
+.ledger-div-container button {
+    display: block !important;
+    position: relative !important;
+    border: 5px solid #EEBD1BFF !important;
+    background: none !important;
+    border-radius: 15px !important;
+    width: 50% !important;
+    height: 50px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-family: 'Lalezar' !important;
+    font-size: 1.5rem !important;
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+.ledger-div-container button:hover {
+    background: #EEBD1BFF !important;
+    color: #010001 !important;
+}
+
+
+
+@media all and (max-width: 1200px) {
+    .ledger-div-container h4 {
+        font-size: 1.5rem !important;
+    }
+    .ledger-div-container p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .ledger-div-container {
+        transform:translateY(0%) !important;
+        margin-top: 50px !important;
+    }
+    .ledger-div-container button {
+        font-size: 1.2rem !important;
+        width: 90% !important;
+        margin-top: 20px !important;
+    }
+}

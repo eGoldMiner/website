@@ -1,0 +1,83 @@
+.div-home-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.login-btn {
+    display: flex;
+    position: relative;
+    border: 5px solid #EEBD1BFF;
+    border-radius: 15px;
+    width: 50%;
+    height: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lalezar';
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.login-btn:hover {
+    background: #EEBD1BFF;
+    color: #010001;
+}
+
+@media all and (max-width: 1420px) {
+    .login-btn {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .login-btn {
+        font-size: 1.8rem;
+        width: 65%;
+        height: 70px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .login-btn {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .div-home-container {
+        transform: translateY(0%);
+    }
+}
+
+@media all and (max-width: 720px) {
+    .login-btn {
+        font-size: 1.8rem;
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .login-btn {
+        font-size: 1.5rem;
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .login-btn {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+}

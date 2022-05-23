@@ -1,0 +1,29 @@
+.pagenotfound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #3B3B3AAA;
+    border: 5px solid #EEBD1BFF;
+    border-radius: 15px;
+    width: 60%;
+    height: 60%;
+    color: #fff;
+    font-family: 'Lalezar';
+    align-self: center;
+    padding: 20px;
+}
+
+.pagenotfound-title {
+    align-self: center;
+    font-size: 200%;
+    margin: 0 auto;
+}
+
+.pagenotfound-details {
+    align-self: center;
+    font-size: 130%;
+    margin: 0 auto;
+}

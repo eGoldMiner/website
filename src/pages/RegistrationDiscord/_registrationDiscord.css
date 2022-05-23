@@ -1,0 +1,19 @@
+.registrationd-container {
+    display: flex;
+    text-align: center;
+    height: 100%;
+    word-break: break-word;
+}
+
+.discord-text {
+    font-family: 'Lalezar';
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.registration-logo-discord {
+    height: 1em;
+    padding-top: 0.1em;
+}

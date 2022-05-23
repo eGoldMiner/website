@@ -1,0 +1,170 @@
+/*-------------------------
+    Footer section
+-------------------------*/
+.footer {
+    position:relative;
+    padding-top: 20px;
+    text-align: center;
+}
+.line-footer {
+    background: var(--white);
+    position: relative;
+    height: 2px;
+    left:10%;
+    width: 80%;
+}
+.logo-elrond {
+    cursor: hand;
+    position:relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+}
+/*Copyright*/
+.copyright {
+    font-family: var(--main-font);
+    font-size: 0.938rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--white);
+    display: block;
+    text-align: center;
+}
+/*Lights footer*/
+.lights-container {
+    z-index: -99;
+	height: 500px;
+	position: absolute;
+    overflow: hidden;
+    bottom: -30px;
+    left: -20px;
+    right: -20px;
+}
+.lightings {
+	padding: 0px;
+	margin: 0px;
+    bottom: -100px;
+	position: absolute;
+	width: 100%;
+}
+.light-one,
+.light-two,
+.light-three,
+.light-four,
+.light-five {
+	padding: -60px;
+	margin: 0px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	height: 100px;
+	width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.light-one {
+	width: 130%;
+    left:-15%;
+	-webkit-animation: one 5s ease-in-out infinite alternate;
+	-moz-animation: one 5s ease-in-out infinite alternate;
+	-ms-animation: one 5s ease-in-out infinite alternate;
+	-o-animation: one 5s ease-in-out infinite alternate;
+	animation: one 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+one { from { -webkit-box-shadow: 0 0 250px 20px var(--gold-web-golden); }
+to { -webkit-box-shadow: 0 0 100px 15px #F72A3B; }}
+@-moz-keyframes 
+one { from { -moz-box-shadow: 0 0 250px 20px var(--gold-web-golden);; }
+to { -moz-box-shadow: 0 0 100px 15px #F72A3B; }}
+@-o-keyframes 
+one { from { -o-box-shadow: 0 0 250px 20px var(--gold-web-golden);; }
+to { -o-box-shadow: 0 0 100px 15px #F72A3B; }}
+@keyframes 
+one { from { box-shadow: 0 0 250px 20px var(--gold-web-golden);; }
+to {box-shadow: 0 0 100px 15px #F72A3B; }}
+
+.light-two {
+	width: 90%;
+	-webkit-animation: two 4s ease-in-out infinite alternate;
+	-moz-animation: two 4s ease-in-out infinite alternate;
+	-ms-animation: two 4s ease-in-out infinite alternate;
+	-o-animation: two 4s ease-in-out infinite alternate;
+	animation: two 4s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+two { from { -webkit-box-shadow: 0 0 250px 20px #18C499; }
+to { -webkit-box-shadow: 0 0 100px 15px var(--lemon); }}
+@-moz-keyframes 
+two { from { -moz-box-shadow: 0 0 250px 20px #18C499; }
+to { -moz-box-shadow: 0 0 100px 15px var(--lemon); }}
+@-o-keyframes 
+two { from { -o-box-shadow: 0 0 250px 20px #18C499;}
+to { -o-box-shadow: 0 0 100px 15px var(--lemon); }}
+@keyframes 
+two { from { box-shadow: 0 0 250px 20px #18C499; }
+to { box-shadow: 0 0 100px 15px var(--lemon); }}
+
+.light-three {
+	width: 80%;
+	-webkit-animation: three 3s ease-in-out infinite alternate;
+	-moz-animation: three 3s ease-in-out infinite alternate;
+	-ms-animation: three 3s ease-in-out infinite alternate;
+	-o-animation: three 3s ease-in-out infinite alternate;
+	animation: three 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+three { from { -webkit-box-shadow: 0 0 250px 20px var(--saffron); }
+to { -webkit-box-shadow: 0 0 100px 15px #3E33FF; }}
+@-moz-keyframes 
+three { from { -moz-box-shadow: 0 0 250px 20px var(--saffron); }
+to { -moz-box-shadow: 0 0 100px 15px #3E33FF }}
+@-o-keyframes 
+three { from { -o-box-shadow: 0 0 250px 20px var(--saffron); }
+to { -o-box-shadow: 0 0 100px 15px #3E33FF }}
+@keyframes 
+three { from { box-shadow: 0 0 250px 20px var(--saffron); }
+to { box-shadow: 0 0 100px 15px #3E33FF }}
+
+.light-four {
+	width: 70%;
+	-webkit-animation: four 2s ease-in-out infinite alternate;
+	-moz-animation: four 2s ease-in-out infinite alternate;
+	-ms-animation: four 2s ease-in-out infinite alternate;
+	-o-animation: four 2s ease-in-out infinite alternate;
+	animation: four 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+four { from { -webkit-box-shadow: 0 0 250px 20px #781848; }
+to { -webkit-box-shadow: 0 0 100px 15px #F2BBE9; }}
+@-moz-keyframes 
+four { from { -moz-box-shadow: 0 0 250px 20px #781848; }
+to { -moz-box-shadow: 0 0 100px 15px #F2BBE9; }}
+@-o-keyframes 
+four { from { -o-box-shadow: 0 0 250px 20px #781848; }
+to { -o-box-shadow: 0 0 100px 15px #F2BBE9; }}
+@keyframes 
+four { from { shadow: 0 0 250px 20px #781848; }
+to { shadow: 0 0 100px 15px #F2BBE9; }}
+
+.light-five {
+	width: 60%;
+	-webkit-animation: five 1s ease-in-out infinite alternate;
+	-moz-animation: five 1s ease-in-out infinite alternate;
+	-ms-animation: five 1s ease-in-out infinite alternate;
+	-o-animation: five 1s ease-in-out infinite alternate;
+	animation: five 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+five { from { -webkit-box-shadow: 0 0 250px 20px #42F2A1; }
+to { -webkit-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@-moz-keyframes 
+five { from { -moz-box-shadow: 0 0 250px 20px #42F2A1; }
+to { -moz-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@-o-keyframes 
+five { from { -o-box-shadow: 0 0 250px 20px #42F2A1; }
+to { -o-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@keyframes 
+five { from { box-shadow: 0 0 250px 20px #42F2A1; }
+to { box-shadow: 0 0 100px 15px #F4F6AD; }}

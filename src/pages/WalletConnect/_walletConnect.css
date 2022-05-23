@@ -1,0 +1,75 @@
+.walletconnect-div-container {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top:50%;
+    margin: 0 auto;
+    transform:translateY(-50%);
+}
+
+.walletconnect-div-container p, h4 {
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 5px;
+    font-family: 'Lalezar';
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.walletconnect-div-container h4 {
+    font-size: 2rem;
+}
+.walletconnect-div-container p {
+    font-size: 1.5rem;
+}
+
+#accessWalletBtn {
+    font-family: 'Lalezar';
+    text-decoration: none;
+    color: #fff;
+    background: #010001;
+    border: 5px solid #EEBD1BFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+.walletconnect-div-container div {
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+}
+.walletconnect-div-container svg {
+    border: 5px solid #EEBD1BFF;
+    color: black;
+    border-radius: 20px;
+    z-index: 99;
+    margin-bottom: 20px;
+}
+
+#accessWalletBtn svg {
+    position: absolute;
+    border: none;
+    border-radius: none;
+    width: 0%;
+    height: 0%;
+}
+
+#accessWalletBtn:before {
+    content:"⚡ Open Maiar Login";
+}
+
+@media all and (max-width: 900px) {
+    .walletconnect-div-container {
+        transform:translateY(0%);
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}

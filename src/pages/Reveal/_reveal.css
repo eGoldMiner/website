@@ -1,0 +1,44 @@
+.player-wrapper {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    border: 5px solid #EEBD1BFF;
+    border-radius: 10px;
+    overflow: visible;
+  }
+
+.reveal-container {
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.react-player {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reveal-text {
+  padding: 30px;
+  color: #EEBD1BFF;
+  font-family: 'Lalezar';
+  font-size: 2.2rem;
+}
+
+@media all and (max-width: 720px) {
+  .player-wrapper {
+    width: 80%;
+    height: auto;
+  }
+  .reveal-container {
+    padding: 20px 0px;
+  }
+  .reveal-text {
+    padding: 10px;
+    font-size: 1.8rem;
+  }
+}

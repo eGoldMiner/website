@@ -1,0 +1,99 @@
+.elrond-app-body {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: normal;
+    align-content: stretch;
+    width: 100%;
+    padding: 100px 10px;
+}
+
+.presentation-container {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 40%;
+    text-align: center;
+}
+
+.component-container {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    width: 60%;
+    text-align: center;
+}
+
+.modal-container {
+    position: absolute !important;
+    transform: translate(-50%, -50%) !important;
+    top: 50% !important;
+    left: 50% !important;
+    color: #000 !important;
+    font-family: 'Lalezar' !important;
+    position: fixed !important;
+    z-index: 99;
+}
+.modal-dialog {
+    position: relative !important;
+    color: #000 !important;
+}
+.modal-dialog .modal-content {
+    display: flex !important;
+    flex-direction: row;
+}
+
+@media all and (max-width: 900px) {
+    .elrond-app-body {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .presentation-container {
+        width: 80%;
+        order: 1;
+        margin: 0 auto;
+    }
+    .component-container {
+        width: 90%;
+        order: 0;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .elrond-app-body {
+        padding: 10px 10px;
+    }
+    .presentation-container {
+        width: 90%;
+    }
+    .component-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .modal-container {
+        width: 80% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .presentation-container {
+        width: 100%;
+    }
+    .component-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
