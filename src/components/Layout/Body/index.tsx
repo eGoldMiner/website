@@ -23,15 +23,17 @@ const Body: () => JSX.Element = () => {
           ></video>
         </div>
         <div>
-          A collection of 7,000 3D animated miners mining digital gold !
+          A collection of 7,000 3D animated miners mining real gold !
           <br />
-          Your miners can earn you real gold bars delivered to your home.
+          The first NFT collection that car earn you real gold bars delivered to your home.
+          <br />
+          We ship the gold all around the world with a custom collection card of your NFT.
         </div>
       </section>
 
       <section className='new-section mint-section'>
         <div className='mint-button'>
-          <a href={addressMint}>Open App</a>
+          <a href={addressMint}>MINT LIVE</a>
         </div>
       </section>
 
@@ -217,8 +219,8 @@ const Body: () => JSX.Element = () => {
             <div className='faq-content'>
               <p>
                 Elrond Miners are a team of 7,000 NFTs randomly generated living
-                on the Elrond Blockchain. Details will be added but you can
-                imagine that your miners will be able to mine digital gold...
+                on the Elrond Blockchain. Thanks to your miners you wil be able to
+                earn real gold at home, but also EGLD each week.
               </p>
             </div>
           </details>
@@ -232,8 +234,8 @@ const Body: () => JSX.Element = () => {
             </summary>
             <div className='faq-content'>
               <p>
-                With this project, you will get rewards based on your
-                miner&apos;s mining abilities.
+                We are the first NFT collection with such IRL utilities.
+                If you believe that gold is a safe investment, then Elrond Miners is too.
               </p>
             </div>
           </details>
@@ -247,8 +249,7 @@ const Body: () => JSX.Element = () => {
             </summary>
             <div className='faq-content'>
               <p>
-                You will have many ways that will be anounced soon. But to be
-                reassured, you will be able to recruit early.
+                Mint is <a href='https://app.elrondminers.com'>LIVE </a>
               </p>
             </div>
           </details>
